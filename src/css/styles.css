@@ -1,0 +1,64 @@
+
+:root {
+    /* Colors */
+    --primary-pink: #fb6f92;
+    --primary-pinkLight: #ffafcc;
+    --secondary-blue: #a2d2ff;
+    --secondary-blueLight: #bde0fe;
+    --secondary-grey: #7A7A7A;
+    --secondary-graphite: #353535;
+
+    /* Tag Colors */
+    --tag-grey: #e2e2df;
+    --tag-black: #d2d2cf;
+    --tag-red: #fec5bb;
+    --tag-orange: #fcd2af;
+    --tag-yellow: #fcf5c7;
+    --tag-green: #dbfdd8;
+    --tag-blue: #d7e3fc;
+    --tag-purple: #e5d9f2;
+    --tag-pink: #ffc4d6;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    color: var(--secondary-graphite);
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Lora", serif;
+    color: var(--secondary-graphite);
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: var(--primary-pink);
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--primary-pink);
+}
+
+h3 {
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-pink);
+}
+
+h5 {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+h6 {
+    font-size: 1.125rem;
+}
